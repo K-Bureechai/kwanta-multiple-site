@@ -9,10 +9,13 @@ body {
     margin-bottom: 60px;
 }
 
+.introduction {
+    text-align: center;
+}
+
 h1,
 h2,
 h3 {
-    text-align: center;
     margin: 0;
 }
 
@@ -33,7 +36,7 @@ p {
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
-    text-align: center;
+
 }
 
 .navigation-links {
@@ -107,4 +110,46 @@ p {
     background-color: var(--primary-color);
     text-decoration: none;
     box-shadow: var(--box-shadow);
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 48px;
+        line-height: 1.5;
+    }
+
+    h2 {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    img {
+        display: none;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .primary-link {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .row-weather-app {
+        margin-top: 50px;
+    }
 }
